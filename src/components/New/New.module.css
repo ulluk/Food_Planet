@@ -1,0 +1,94 @@
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
+nav ul li{
+    list-style: none;
+    padding-right: 25px;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
+    color: #1D3130;
+}
+
+.New{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.NavBar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.title{
+    font-size: 25px;
+    color: #254F4C;
+    font-weight: bold;
+    width: 32px;
+    padding-left: 9%;
+    padding-right: 25%;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+
+    height: 500px;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 260px;
+    border: 2px;
+    height: 430px;
+    padding-right: 20px;
+}
+
+.bg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2B4241;
+    border-radius: 40px;
+    color: white;
+    height: 81%;
+}
+
+.food{
+    margin-top: -40px;
+}
+
+.bg button{
+    font-size: 16px;
+    margin-top: 2px;
+}
+
+.counter div{
+    padding: 0 5px;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.counter{
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    align-items: center;
+    padding: 3px 0;
+}
+.cost{
+    font-size: 17px;
+    font-weight: 700;
+    padding: 3px 0px;
+}
+
+.desc{
+    text-align: center;
+    padding: 0px 12px;
+}

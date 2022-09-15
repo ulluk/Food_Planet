@@ -1,0 +1,132 @@
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
+nav ul li{
+    list-style: none;
+    padding-right: 25px;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
+    color: #1D3130;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1399px;
+}
+
+.NavBar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.title{
+    font-size: 25px;
+    color: #254F4C;
+    font-weight: bold;
+    width: 32px;
+    padding-left: 9%;
+    padding-right: 25%;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 500px;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 260px;
+    border: 2px;
+    height: 430px;
+    padding-right: 20px;
+}
+
+.bg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 40px;
+    color: #254F4C;
+    height: 81%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pizza {
+    margin-top: -40px;
+}
+
+.counter div{
+    padding: 0 5px;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.bg button{
+    background-color: #254F4C;
+    font-size: 16px;
+    margin-top: 2px;
+}
+
+.counter{
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    align-items: center;
+    padding: 3px 0;
+}
+
+.desc{
+    text-align: center;
+    padding: 0px 12px;
+    height: 72px;
+    font-size: 14px;
+}
+
+.sorting{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10%;
+    height: 40px;
+}
+
+.sorting div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 15px;
+    color: #1D3130;
+}
+
+
+.sorting select{
+    border: 1px solid #C4C4C4;
+    width: 160px;
+}
+
+.cost{
+    font-size: 17px;
+    font-weight: 700;
+    padding: 3px 0px;
+}
+.more{
+    margin-top: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.more button{
+    background-color: white;
+    color: #FF583E;
+    border: 1px solid #FF583E;
+}

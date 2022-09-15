@@ -1,0 +1,30 @@
+.banner{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.desc{
+    width: 19%;
+}
+.title{
+    color: #254F4C;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+.title_desc{
+    font-size: 16px;
+    line-height: 24px;
+    color: #254F4C;
+    padding-bottom: 12px;
+}
+
+button{
+    width: 216px;
+    height: 49px;
+    border: none;
+    background: #FF583E;
+    border-radius: 25px;
+    color: white;
+}

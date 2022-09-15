@@ -1,25 +1,28 @@
-import logo from './logo.svg';
+import React from "react";
+import {BrowserRouter, Routes, Route} from "react-router-dom";
+import Main from "./components/Main";
+import ShoppingCart from "./components/ShoppingCart/ShoppingCart";
 import './App.css';
+import ProductForm from "./components/ProductForm/ProductForm";
+import Footer from "./components/Footer";
+import HeaderNav from "./components/HeaderNav/HeaderNav";
+import AdminPanel from "./components/AdminPanel/AdminPanel";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <BrowserRouter>
+            {/*<HeaderNav/>*/}
+            <Routes>
+                <Route path="/" element={<Main/>}/>
+                <Route path="/cart" element={<ShoppingCart/>}/>
+                <Route path="/form" element={<ProductForm/>}/>
+            </Routes>
+            {/*<Footer/>*/}
+            <Routes>
+                <Route path="/admin" element={<AdminPanel/>}/>
+            </Routes>
+        </BrowserRouter>
+    );
 }
 
 export default App;

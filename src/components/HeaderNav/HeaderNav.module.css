@@ -1,0 +1,31 @@
+.Nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.navigation ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navigation ul li{
+    list-style: none;
+    padding-right: 40px;
+}
+
+.navigation {
+    padding-left: 70px;
+}
+
+
+
+.a div{
+    display: flex;
+    flex-direction: column;
+}
+
+.a div span{
+    font-size: 20px;
+}

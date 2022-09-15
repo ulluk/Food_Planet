@@ -1,0 +1,200 @@
+
+.person{
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+}
+
+.productform{
+    margin: 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100px;
+    border-bottom: solid gray 1px;
+}
+
+.product img{
+    height: 30px;
+    width: 30px;
+    margin-right: 30px;
+    margin-left: 55px;
+}
+.name{
+    text-align: center;
+    margin: 0px 60px;
+}
+
+.count input{
+    border:solid 1px #C4C4C4;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+}
+
+.count{
+    height: 40px;
+    width: 20px;
+    margin: 0 80px;
+    margin-right: 95px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.comment{
+    height: 40px;
+    width: 100px;
+    margin: 0 40px;
+}
+
+.comment input{
+    border:solid 1px #C4C4C4;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.cost{
+    margin: 0 60px;
+    margin-right: 20px;
+    font-size: 20px;
+    color: gray;
+}
+
+.price{
+    margin-left: 100px;
+    font-size: 20px;
+    color: gray;
+}
+.buy_form{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 21%;
+    background-color: #ebf1fa;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.address_title{
+    margin-top: 0px;
+}
+
+.buy_form div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buy_form div p:last-child{
+    font-size: 20px;
+}
+
+.buy_form h2{
+    margin: 2px 0;
+}
+
+.buy_form div p{
+    margin-right: 20px;
+    margin-top: 0;
+}
+
+.buy_form .input{
+    border: #061817 solid 1px ;
+    height: 40px;
+    width: 99%;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.buy_form button{
+    width: 100%;
+    background-color: #5e8bce;
+    border-radius: 5px;
+}
+
+.person_data{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.person_data input{
+     height: 40px;
+     width: 45%;
+     margin-right: 5px;
+     margin-bottom: 5px;
+     border-radius: 5px;
+     border-width: 1px;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+ul li:first-child{
+    margin-right: 15px;
+}
+
+.product .name{
+    margin-left: 0px;
+    margin-right:25px ;
+}
+
+.person_info nav{
+    width: 95%;
+}
+.product{
+    width: 95%;
+}
+
+.person_info{
+    width: 70%;
+}
+.address{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.address .input{
+    border: #061817 solid 1px ;
+    height: 40px;
+    width: 45%;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.how_buy{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.how_buy .input{
+    border: #061817 solid 1px ;
+    height: 40px;
+    width: 24%;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.comments input{
+    width: 100%;
+    height: 80px;
+}

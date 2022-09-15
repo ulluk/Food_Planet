@@ -1,0 +1,57 @@
+.reviews{
+    margin-top: 50px;
+    width: 81%;
+    max-width: 1399px;
+}
+
+h2{
+    color: #254F4C;
+
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    width: 250px;
+    height: 313px;
+    border: 2px solid #1D3130;
+    border-radius: 40px;
+
+}
+
+.card div{
+    text-align: center;
+}
+
+.name{
+    padding: 5px 0;
+    color: #3B7976;
+    display: flex;
+    justify-content: center;
+}
+
+.desc{
+    height: 120px;
+    color: #061817;
+    font-weight: 500;
+    padding: 0px 5px;
+}
+
+.date{
+    padding-top: 16px;
+    height: 16px;
+    color: #3B7976;
+}
+
+.icon{
+    position: absolute;
+    margin: -144px 0px 0px -115px;
+}
